@@ -1,0 +1,101 @@
+
+*
+{
+    margin:0;
+    padding:0;
+
+}
+
+header
+{
+    
+    background-image: url(pic1.jpg);
+    height: 100vh;
+    background-size : cover;
+    background-position: center;
+
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 37px;
+    
+}
+
+.main-nav li{
+    display: inline-block;
+
+
+}
+.main-nav li a {
+    color: rgb(233, 222, 222);
+    text-decoration: none;
+    padding: 25px 30px;
+    font-family: sans-serif,"Roboto";
+    font-size: 25px;
+
+}
+.main-nav li.active a {
+    border:1px solid white;
+}
+
+
+.main-nav li a:hover{
+    border:0.5px solid white;
+}
+.logo img{
+    width:150px;
+    height: auto;
+    float:left; 
+    border-radius: 25px ;
+    
+} 
+body{
+    font-family: monospace;
+}
+.row{
+    max-width:1400px;
+    margin:auto;
+}
+
+.hero{
+    position: absolute;
+    width: 1200px;
+    margin-left:0px;
+    margin-top:0px;
+}
+h1
+{
+    color:rgb(12, 5, 5);
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    margin-top:275px;
+    margin-left: 140px;
+
+}
+.button{
+    margin-top:30px;
+    margin-left:440px;
+}
+.btn{
+    border:1px solid white;
+    padding:10px 30px;
+    color:rgb(8, 6, 6);
+    font-size: 20px;
+    margin-left: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.btn-one{
+    background-color: darkorange;
+    font-family: "roboto",sans-serif;
+}
+.btn-two{
+    
+    font-family: "roboto",sans-serif;
+}
+.btn-two:hover{
+    background-color: darkorange;  
+    transition:all 0.5s ease-in;
+}
